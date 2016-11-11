@@ -1,0 +1,11 @@
+cmake_minimum_required (VERSION 2.6)
+project (PyOptoForce)
+set (Tutorial_VERSION_MAJOR 0)
+set (Tutorial_VERSION_MINOR 1)
+#add_subdirectory(omd)
+
+include_directories(./include/)
+link_directories("${CMAKE_CURRENT_LIST_DIR}/binaries/omd64lib")
+add_subdirectory(./pybind11/)
+pybind11_add_module(pyOptoForce ./src/pyOptoForce.cpp)
+target_link_libraries (pyOptoForce OMD)
