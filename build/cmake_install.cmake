@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/guru/Documents/workspace/optoForcecmake
+# Install script for directory: C:/Users/guru/Documents/workspace/pyoptoForce
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/guru/Documents/workspace/optoForcecmake/build/pybind11/cmake_install.cmake")
+  include("C:/Users/guru/Documents/workspace/pyoptoForce/build/pybind11/cmake_install.cmake")
 
 endif()
 
@@ -41,5 +41,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/guru/Documents/workspace/optoForcecmake/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/guru/Documents/workspace/pyoptoForce/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

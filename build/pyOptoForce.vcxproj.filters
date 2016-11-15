@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\guru\Documents\workspace\optoForcecmake\src\pyOptoForce.cpp">
+    <ClCompile Include="C:\Users\guru\Documents\workspace\pyoptoForce\src\pyOptoForce.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\guru\Documents\workspace\optoForcecmake\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\guru\Documents\workspace\pyoptoForce\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2AC66910-3F4C-306C-B629-F4E3E1A6273F}</UniqueIdentifier>
+      <UniqueIdentifier>{D93DCF7F-1B01-32ED-8D79-41171230B60A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

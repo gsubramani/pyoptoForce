@@ -29,7 +29,8 @@ PYBIND11_PLUGIN(pyOptoForce) {
 		.def(py::init<>())
 		.def_readonly("x", &OptoPackage::x)
 		.def_readonly("y", &OptoPackage::y)
-		.def_readonly("z", &OptoPackage::z);
+		.def_readonly("z", &OptoPackage::z)
+		.def("isCorrect",&OptoPackage::isCorrect);
 	
 	py::class_<OptoPackage6D>(m, "OptoPackage6D")
 		.def(py::init<>())
@@ -48,12 +49,27 @@ PYBIND11_PLUGIN(pyOptoForce) {
 		.def("open", &OptoDAQ::open)
 		.def("getVersion", &OptoDAQ::getVersion)
 		.def("read", &OptoDAQ::read)
-		.def("close", &OptoDAQ::close);
+		.def("close", &OptoDAQ::close)
+		.def("getConfig",&OptoDAQ::getConfig)
+		.def("sendConfig",&OptoDAQ::sendConfig);
 
 	py::class_<OPort>(m, "OPort")
 		.def(py::init<>())
 		.def("__repr__",
 			[](const OPort &a) {
 		return "<OPort: Device Name: " + std::string(a.deviceName) + "Serial Number: " + std::string(a.serialNumber) + ">"; });
+	
+	py::class_<SensorConfig>(m, "SensorConfig")
+		.def(py::init<>())
+		.def("set", &SensorConfig::set)
+		.def("getState", &SensorConfig::getState)
+		.def("getSpeed", &SensorConfig::getSpeed)
+		.def("getFilter", &SensorConfig::getFilter)
+		.def("getMode", &SensorConfig::getMode)
+		.def("setSpeed", &SensorConfig::setSpeed)
+		.def("setFilter", &SensorConfig::setFilter)
+		.def("setMode", &SensorConfig::setMode);
+
+	
 	return m.ptr();
 }

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\guru\Documents\workspace\optoForcecmake\build\CMakeFiles\b4f91203406a7e8adeb7aa8d7c7b3456\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\guru\Documents\workspace\pyoptoForce\build\CMakeFiles\3de1079437be83a1064799eec6174d2a\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{01402ADC-5026-3E60-B398-A07CBB83E631}</UniqueIdentifier>
+      <UniqueIdentifier>{0F1DC405-ECB6-3745-880A-EAD8B8F2FD0C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

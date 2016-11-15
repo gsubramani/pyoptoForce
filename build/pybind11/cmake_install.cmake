@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/guru/Documents/workspace/optoForcecmake/pybind11
+# Install script for directory: C:/Users/guru/Documents/workspace/pyoptoForce/pybind11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-C:/Users/guru/Documents/workspace/optoForcecmake/build/CMakeFiles/pyOptoForce.dir
-C:/Users/guru/Documents/workspace/optoForcecmake/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/guru/Documents/workspace/optoForcecmake/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/guru/Documents/workspace/optoForcecmake/build/pybind11/CMakeFiles/ALL_BUILD.dir
+C:/Users/guru/Documents/workspace/pyoptoForce/build/CMakeFiles/pyOptoForce.dir
+C:/Users/guru/Documents/workspace/pyoptoForce/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/guru/Documents/workspace/pyoptoForce/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/guru/Documents/workspace/pyoptoForce/build/pybind11/CMakeFiles/ALL_BUILD.dir
